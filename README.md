@@ -20,14 +20,6 @@ PRofessionallism stuff:
 2. Name your nets properly
 3. Make sure there are no ERC warnings or errors
 
-
-- [x] watch KiCAD tutorials
-- [x] part 7
-- [ ] learn about PCB concepts
-
-Watch this video to learn how to name the schematic and stuff
-https://www.youtube.com/watch?v=0Q6gU7-QqUg&list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm&index=2
-
 Place Symbol ("A" hotkey)
 "M" to move a symbol (does not move wires)
 "G" to grab a symbol (moves wires)
@@ -103,7 +95,10 @@ Q: what do we do with PG in Buck converter?
 
 - [x] create board outline from DXF
 - [x] do routing and stuff
+
 - [ ] which traces need to go to which pins in the middle?
+- [ ] redo with 22uF capacitors to lessen the BOM
+- [ ] need help picking the actual components like switches and USB-C adapter
 
 ### Things to Study:
 - blocks
@@ -118,4 +113,17 @@ For the 52uF it would have to be 1206 most likely.. instead of putting +V_OUT it
 usually you determine footprints for resistors and capacitors based on what is generally available on digi-key and mouser, but mostly they should all be 0603 and 0805
 you can also just place a couple 22uF in parallel to get the 52uF since thats a more common size and we can reduce the BOM. Each additional part equates to an additional feeder on a pick and place and costs more to setup
 the ESP should have a 22uF near the VIN pin, and you can use that some one 3x on the output of the buck converter
+
+Ok I dont have a lot of time to go through this in detail, but some things I noticed in layout
+
+Try to create more space between the USB-C connector and the ESP's antenna, preferrably swaping places with the USB-C and the 12 pin
+Remove the little sliver of ground pour above the antenna, I would just move the ESP32 up more to eliminate that and get it right on the edge of the board.
+I would add a lot of stitching vias around the GND pins of the ESP32 to connect the two ground pours on top and bottom.
+I personally would recommend a 4-layer stackup so we can have a dedicated 3.3V ground pour and increase overall board capacitance, the ESP's wifi TX events can cause a good inrush current and from an EMI perspective we are creating a large current loops with 3.3V routed the way it is
+
 ```
+
+### Workflow Stuff
+
+The DXF files are generated from the full .step file of the BLE adapter. Then we import the outer ring and screw holes as the edge cuts of the board. A DXF containing all lines in the sketch is imported to the "user drawings" layer so we can see where our via holes need to go for the pins.
+

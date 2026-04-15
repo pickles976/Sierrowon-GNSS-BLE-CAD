@@ -15,6 +15,37 @@ https://www.digikey.com/en/products/detail/recom-power/RPX-4-0-R/14312389
 
 ## TODO: 
 
+- [x] print out PCB on paper
+- [ ] add 12-pin header to board
+
+12 pins We will need CS, SCK, MOSI, MISO, 2x GND,  12V(GNSS Vin), 3.3V, 4 x IO Pins
+
+ SPI pins on the S3 and be set in firmware and can be any arrangement from I04-IO14 and IO2
+
+## 12-Pin Connector Pin Assignment
+
+| Signal | Module Pin | GPIO | Notes |
+|--------|-----------|------|-------|
+| GND | — | — | Power rail |
+| GND | — | — | Power rail |
+| 3.3V | — | — | Power rail |
+| 12V (GNSS Vin) | — | — | Power rail |
+| CS | 12 | IO8 | SPI grouped |
+| SCK | 13 | IO9 | SPI grouped |
+| MOSI | 14 | IO10 | SPI grouped |
+| MISO | 15 | IO11 | SPI grouped |
+| IO_1 | 19 | IO15 | IO grouped |
+| IO_2 | 20 | IO16 | IO grouped |
+| IO_3 | 21 | IO17 | IO grouped |
+| IO_4 | 22 | IO18 | IO grouped |
+
+> **Note:** Avoid using module pin 26 (IO26) as GPIO — on the N4R2, IO26 is internally tied to the flash CLK in QIO mode (the default) and will cause flash corruption if driven externally.
+
+Cheers
+https://documentation.espressif.com/esp32-s3_datasheet_en.pdf#cd-pins-peri-assignment Page 27
+https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.pdf Page 20
+
+
 PRofessionallism stuff:
 1. Name your schematics
 2. Name your nets properly
@@ -39,15 +70,7 @@ V - create via-hole mid-trace
 U - select all segments in a trace
 use edge cuts layer to draw board edge
 
-front and back copper filled zones (what are these?)
-hand-solder footprints
-
 Gerber files
-
-
-Questions:
-- how do I use the DXF file to create the board?
-- how do I find the parts?
 
 - PCBWAY
 - what are the PCB specs? (defaults should handle it)
@@ -57,72 +80,14 @@ Questions:
     - pad size
 - 12 mil spacing for power
 
-- are we doing surface mount or through-hole, and for which parts?
-    - all surface mount, through-hole for pins
-- design preferences? close together? spread apart? what is better for manufacturing?
-
 ### 
-
-0603 for capacitors
 
 Output from GPS module: 9-36V
 Output from Buck Converter: 3.3V
 
-- [x] get all the parts
-- [x] email nicholas for example schematic
-- [x] Wire up ESP32
-    - [x] boot
-    - [x] Reset
-    - [x] USB-C
-- [x] Wire up buck converter
-    - [x] capacitors
-Desired voltage 3.3
-RFB1 10K
-RFB2 4k32
-Cout 52uF
-    - [x] connect to ESP32
-- [x] wire up RS232
-    - [x] caps and resistors
-    - [x] connect to everything else
-- [x] clean up schematic
-
 Q: what do we do with PG in Buck converter?
 
-- [x] get outine of board
-- [x] assign footprints
-- [x] capacitors and resistors
-    - [x] 0603 for capacitors
-
-- [x] create board outline from DXF
-- [x] do routing and stuff
-
-- [x] redo with 22uF capacitors to lessen the BOM
-- [x] redo traces
-- [x] need help picking the actual components like switches and USB-C adapter
-    - [x] pick a cheap USB-C USB 3.1 receptacle
-    - [x] fix clearance violations
-- [x] which traces need to go to which pins in the middle?
-- [x] pick all the resistors and capacitors
-- [x] add text/graphics
-- [x] add LED
-    - [x] hook up schematic
-    - [x] hook up PCB
-- [x] spec out resistors
 - [ ] fix ERC errors?
-
-Good candidates for a status LED:                                                                                                                                                     
-  - IO38–IO42 or IO47–IO48 — generally safe, not special-function pins                                                                                                                  
-  - IO1–IO18 — also available, but check what your RS232 interface (R1_OUT/T1_IN) is already using
-
-Red:                                                                                                                                                                                  
-  - (3.3 - 1.8) / 0.01 = 150Ω → use 150Ω
-                                                                                                                                                                                        
-  Green & Blue:   
-  - (3.3 - 2.65) / 0.01 = 65Ω → use 68Ω 
-
-4105
-https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441
-
 
 ### Things to Study:
 - blocks

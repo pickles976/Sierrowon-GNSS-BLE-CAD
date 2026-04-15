@@ -1230,6 +1230,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3071,6 +3194,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FTSH-106-01-L-DV:FTSH-106-01-L-DV"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -8.12 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FTSH-106-01-L-DV"
+				(at -7.62 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "FTSH-106-01-L-DV:SAMTEC_FTSH-106-01-L-DV"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "FTSH-106-01-L-DV_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:APFA3010"
 			(pin_names
 				(offset 0)
@@ -4211,6 +4666,12 @@
 		(uuid "44706be8-d93c-402b-8731-64b217f81fca")
 	)
 	(junction
+		(at 213.36 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b8bfab1-7a5a-48a5-a40e-31685d559283")
+	)
+	(junction
 		(at 213.36 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4431,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "0076040b-c873-4e3e-8357-61301691b6e0")
+	)
+	(wire
+		(pts
+			(xy 163.83 30.48) (xy 163.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c08f23-96a5-4b56-b6f5-7e11e1b5cc68")
 	)
 	(wire
 		(pts
@@ -4774,6 +5245,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 147.32) (xy 168.91 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d61d6e7-1bdd-43e9-8ae7-bc5e5502cebc")
+	)
+	(wire
+		(pts
 			(xy 162.56 124.46) (xy 157.48 124.46)
 		)
 		(stroke
@@ -4791,6 +5272,16 @@
 			(type default)
 		)
 		(uuid "4e56bf95-62b2-4dd2-be1e-b567e3faa677")
+	)
+	(wire
+		(pts
+			(xy 213.36 29.21) (xy 213.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f43e5b0-952c-427b-99e6-e3b9c5a605b5")
 	)
 	(wire
 		(pts
@@ -4994,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 35.56) (xy 217.17 35.56)
+			(xy 209.55 35.56) (xy 213.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5164,6 +5655,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 35.56) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cccc0f3-e361-45ef-b35d-2d7f49d78396")
+	)
+	(wire
+		(pts
 			(xy 171.45 125.73) (xy 171.45 139.7)
 		)
 		(stroke
@@ -5171,6 +5672,16 @@
 			(type default)
 		)
 		(uuid "a13b8fb9-4eb3-45f6-877e-3e9f3f7c0610")
+	)
+	(wire
+		(pts
+			(xy 180.34 151.13) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d1c306-b92f-4378-a6ef-22fa491e9fd5")
 	)
 	(wire
 		(pts
@@ -5294,7 +5805,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 118.11) (xy 165.1 154.94)
+			(xy 166.37 118.11) (xy 166.37 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5504,7 +6015,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 118.11) (xy 165.1 118.11)
+			(xy 173.99 118.11) (xy 166.37 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5623,7 +6134,7 @@
 		(uuid "7037de49-046b-4897-96f4-e4022625ccf9")
 	)
 	(label "TX_OUT"
-		(at 165.1 154.94 0)
+		(at 166.37 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6789,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "120"
 			(at 38.1 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +7321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816Q-680-D/432157"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-3AEB121V/1465832"
 			(at 38.1 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +7354,7 @@
 				)
 			)
 		)
-		(property "DKPN" "RR08Q68DTR-ND"
+		(property "DKPN" "P120DBTR-ND"
 			(at 38.1 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -7044,6 +7555,243 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "SW_BOOT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FTSH-106-01-L-DV:FTSH-106-01-L-DV")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439c0f62-1435-49c0-8f7a-61e6bf7767ed")
+		(property "Reference" "12_PIN1"
+			(at 166.37 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-106-01-L-DV"
+			(at 166.37 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FTSH-106-01-L-DV:SAMTEC_FTSH-106-01-L-DV"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "SAM1161-06-ND"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DKPN" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-106-01-L-DV/1110221"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "03"
+			(uuid "f30aa985-aad2-4ed5-ab03-e81a7f6e259a")
+		)
+		(pin "08"
+			(uuid "698b1667-23d7-4298-aff4-efbcedae1f8c")
+		)
+		(pin "12"
+			(uuid "624f9425-dc5e-4f5b-8d36-e7d1cc295dfd")
+		)
+		(pin "02"
+			(uuid "0e219cc7-31bc-42d0-8c90-600b939b6c64")
+		)
+		(pin "04"
+			(uuid "e60a5b58-cbfc-471e-83c1-9acef6777478")
+		)
+		(pin "05"
+			(uuid "0318ad0e-cc7e-4735-97c4-1c460e4948ef")
+		)
+		(pin "09"
+			(uuid "560194d7-1554-42ff-9b59-4ecc2f1af10e")
+		)
+		(pin "10"
+			(uuid "47aec4c3-41bb-40ec-8267-7014dbdc71f2")
+		)
+		(pin "11"
+			(uuid "29816815-beb2-44c0-94b9-1f4b8dd904ce")
+		)
+		(pin "01"
+			(uuid "a6c28c78-8207-4636-a9c4-0e8b4eaec5f8")
+		)
+		(pin "06"
+			(uuid "02de6f2d-f563-4e9d-ae2c-35501c2ac517")
+		)
+		(pin "07"
+			(uuid "88870519-8a90-4933-9512-da710d5933e7")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "12_PIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "450898d5-2b84-480f-9664-3d74b048a402")
+		(property "Reference" "GND1"
+			(at 215.9 24.6379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 27.1779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 218.44 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02d5cd89-5119-40f8-8565-268d8c9d41e6")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -8441,7 +9189,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "120"
 			(at 38.1 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8462,7 +9210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-3AEB151V/1465834"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-3AEB121V/1465832"
 			(at 38.1 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +9243,7 @@
 				)
 			)
 		)
-		(property "DKPN" "P150DBTR-ND"
+		(property "DKPN" "P120DBTR-ND"
 			(at 38.1 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -9106,6 +9854,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e69450-b971-482e-be1d-b6d5ebad6c42")
+		(property "Reference" "+12V1"
+			(at 166.37 25.9079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+12V"
+			(at 166.37 28.4479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 168.91 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe84f054-101e-4d1f-a7d8-c594d586687f")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "+12V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 35.56 90)
 		(unit 1)
@@ -9205,7 +10032,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "120"
 			(at 38.1 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9226,7 +10053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816Q-680-D/432157"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-3AEB121V/1465832"
 			(at 38.1 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9259,7 +10086,7 @@
 				)
 			)
 		)
-		(property "DKPN" "RR08Q68DTR-ND"
+		(property "DKPN" "P120DBTR-ND"
 			(at 38.1 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -9280,6 +10107,85 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "R_GREEN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb047cf-1d63-40c0-8727-78e5a07a449c")
+		(property "Reference" "RX1"
+			(at 168.91 153.1619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TX_OUT"
+			(at 168.91 155.7019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 161.29 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cceefe3-28ec-4eee-a9c4-30b5f967e61e")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -9987,6 +10893,85 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "C_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf1a3ac1-aace-468c-bc92-3b6826a48e93")
+		(property "Reference" "TX1"
+			(at 182.88 153.1619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RX_IN"
+			(at 182.88 155.7019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 175.26 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c05138a4-0d7b-4ec5-a2fe-97aad085537a")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "TX1")
 					(unit 1)
 				)
 			)

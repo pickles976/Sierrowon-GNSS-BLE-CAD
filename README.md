@@ -98,14 +98,27 @@ Q: what do we do with PG in Buck converter?
 
 - [x] redo with 22uF capacitors to lessen the BOM
 - [x] redo traces
-- [ ] need help picking the actual components like switches and USB-C adapter
+- [x] need help picking the actual components like switches and USB-C adapter
     - [x] pick a cheap USB-C USB 3.1 receptacle
     - [x] fix clearance violations
 - [x] which traces need to go to which pins in the middle?
 - [x] pick all the resistors and capacitors
 - [x] add text/graphics
-- [ ] add LED
+- [x] add LED
+    - [x] hook up schematic
+    - [x] hook up PCB
+- [x] spec out resistors
 - [ ] fix ERC errors?
+
+Good candidates for a status LED:                                                                                                                                                     
+  - IO38–IO42 or IO47–IO48 — generally safe, not special-function pins                                                                                                                  
+  - IO1–IO18 — also available, but check what your RS232 interface (R1_OUT/T1_IN) is already using
+
+Red:                                                                                                                                                                                  
+  - (3.3 - 1.8) / 0.01 = 150Ω → use 150Ω
+                                                                                                                                                                                        
+  Green & Blue:   
+  - (3.3 - 2.65) / 0.01 = 65Ω → use 68Ω 
 
 4105
 https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441

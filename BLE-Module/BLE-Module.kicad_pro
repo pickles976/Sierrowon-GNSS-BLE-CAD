@@ -729,7 +729,7 @@
         "uuid": "f32fd4ec-d5e6-44db-8279-3c2039072023"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R_RED2-3,LED1,R2,#PWR26,D2",
     "variants": []
   },
   "sheets": [

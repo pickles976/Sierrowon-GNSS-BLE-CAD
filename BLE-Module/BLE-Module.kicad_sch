@@ -5618,7 +5618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816P-512-D/432202?s=N4IgTCBcDaIEpwAwA4AKBWAdARgNIBEAVOAWgDl8QBdAXyA"
 			(at 40.64 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5640,7 +5640,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "RR08P5.1KDTR-ND"
 			(at 40.64 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5709,7 +5709,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K3RACTU/416044"
 			(at 246.38 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5731,7 +5731,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "399-C0603C104K3RACTUTR-ND"
 			(at 246.38 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -5880,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KOHNNNE/3888706?s=N4IgTCBcDaIIxgOwDYC0BmADAFgByrFQDkAREAXQF8g"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5892,6 +5892,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "1276-3048-2-ND"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816P-512-D/432202?s=N4IgTCBcDaIEpwAwA4AKBWAdARgNIBEAVOAWgDl8QBdAXyA"
 			(at 90.17 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5981,7 +5992,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "RR08P5.1KDTR-ND"
 			(at 90.17 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -6284,7 +6295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RPX-4.0-R"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/recom-power/RPX-4-0-R/14312389"
 			(at 168.91 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6416,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"
 			(at 26.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6438,7 +6449,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "1276-1946-2-ND "
 			(at 26.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/PTS526SM08SMTR2-LFS/10056623"
 			(at 86.36 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6529,7 +6540,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "CKN12218-2-ND "
 			(at 86.36 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6599,7 +6610,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-MINI-1-N4R2/22597234"
 			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K3RACTU/416044"
 			(at 260.35 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7046,7 +7057,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "399-C0603C104K3RACTUTR-ND"
 			(at 260.35 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -7114,7 +7125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KOHNNNE/3888706?s=N4IgTCBcDaIIxgOwDYC0BmADAFgByrFQDkAREAXQF8g"
 			(at 228.6 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7136,7 +7147,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "1276-3048-2-ND"
 			(at 228.6 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7364,7 +7375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816P-103-D/432209?s=N4IgTCBcDaIEpwAwA4CMA2ACgWlYgzNgCIgC6AvkA"
 			(at 213.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7386,7 +7397,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "RR0816P-103-D"
 			(at 213.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7534,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K3RACTU/416044"
 			(at 157.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7556,7 +7567,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "399-C0603C104K3RACTUTR-ND"
 			(at 157.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7624,7 +7635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K3RACTU/416044"
 			(at 246.38 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7646,7 +7657,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "399-C0603C104K3RACTUTR-ND"
 			(at 246.38 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -7715,7 +7726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816P-512-D/432202?s=N4IgTCBcDaIEpwAwA4AKBWAdARgNIBEAVOAWgDl8QBdAXyA"
 			(at 33.02 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7737,7 +7748,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "RR08P5.1KDTR-ND"
 			(at 33.02 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7884,7 +7895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K3RACTU/416044"
 			(at 260.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7906,7 +7917,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "399-C0603C104K3RACTUTR-ND"
 			(at 260.35 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -8266,7 +8277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/susumu/RR0816P-512-D/432202?s=N4IgTCBcDaIEpwAwA4AKBWAdARgNIBEAVOAWgDl8QBdAXyA"
 			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8288,7 +8299,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "RR08P5.1KDTR-ND"
 			(at 35.56 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -8744,7 +8755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b69b630b-5972-494b-9039-89c7819f164e")
-		(property "Reference" "USB-C"
+		(property "Reference" "USB-C1"
 			(at 62.23 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8776,7 +8787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "USB4105-GF-A"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441"
 			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8789,6 +8800,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" "2073-USB4105-GF-ATR-ND "
 			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8838,7 +8860,7 @@
 		(instances
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
-					(reference "USB-C")
+					(reference "USB-C1")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KOHNNNE/3888706?s=N4IgTCBcDaIIxgOwDYC0BmADAFgByrFQDkAREAXQF8g"
 			(at 228.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9224,7 +9246,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "1276-3048-2-ND"
 			(at 228.6 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9453,7 +9475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/PTS526SM08SMTR2-LFS/10056623"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9475,7 +9497,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "CKN12218-2-ND "
 			(at 40.64 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -9623,7 +9645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-3AEB4321V/2026805?s=N4IgTCBcDaIAoBYB0BmMBpAIgIQCoCUBaAOUxAF0BfIA"
 			(at 231.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9645,7 +9667,7 @@
 				)
 			)
 		)
-		(property "DKPN" ""
+		(property "DKPN" "P4.32KDBTR-ND"
 			(at 231.14 50.8 90)
 			(hide yes)
 			(show_name no)

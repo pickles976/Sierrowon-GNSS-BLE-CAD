@@ -100,10 +100,12 @@ Q: what do we do with PG in Buck converter?
 - [x] redo traces
 - [ ] need help picking the actual components like switches and USB-C adapter
     - [x] pick a cheap USB-C USB 3.1 receptacle
-    - [ ] fix clearance violations
-- [ ] pick all the resistors and capacitors
-- [ ] which traces need to go to which pins in the middle?
-- [ ] fix ERC errros?
+    - [x] fix clearance violations
+- [x] which traces need to go to which pins in the middle?
+- [x] pick all the resistors and capacitors
+- [x] add text/graphics
+- [ ] add LED
+- [ ] fix ERC errors?
 
 4105
 https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441

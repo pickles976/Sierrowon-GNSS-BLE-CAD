@@ -665,7 +665,7 @@
           "group_by": false,
           "label": "DKPN",
           "name": "DKPN",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -673,7 +673,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "DKPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -716,7 +716,7 @@
         "uuid": "f32fd4ec-d5e6-44db-8279-3c2039072023"
       }
     ],
-    "used_designators": "ESP32_C_Power1,C5,#FLG3,#PWR2,#PWR11,#PWR17-23,C_OUT2",
+    "used_designators": "USB\\-C1,J2,ESP32_C_Power1,C5,#FLG3,#PWR2,#PWR11,#PWR17-25,C_OUT2",
     "variants": []
   },
   "sheets": [

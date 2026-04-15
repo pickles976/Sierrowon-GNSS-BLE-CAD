@@ -98,9 +98,15 @@ Q: what do we do with PG in Buck converter?
 
 - [x] redo with 22uF capacitors to lessen the BOM
 - [x] redo traces
-- [ ] which traces need to go to which pins in the middle?
 - [ ] need help picking the actual components like switches and USB-C adapter
-    - [ ] pick a cheap USB-C USB 3.1 receptacle
+    - [x] pick a cheap USB-C USB 3.1 receptacle
+    - [ ] fix clearance violations
+- [ ] pick all the resistors and capacitors
+- [ ] which traces need to go to which pins in the middle?
+- [ ] fix ERC errros?
+
+4105
+https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441
 
 
 ### Things to Study:

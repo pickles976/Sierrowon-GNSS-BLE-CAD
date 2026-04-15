@@ -3785,6 +3785,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4015,145 +4293,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 15.24 36.83)
@@ -4184,6 +4323,12 @@
 		(uuid "0051b31e-7dae-4d2a-83ab-0e3bb521c0a5")
 	)
 	(junction
+		(at 234.95 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aaaabe7-4524-48e8-95d7-7942520b184b")
+	)
+	(junction
 		(at 40.64 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4196,10 +4341,10 @@
 		(uuid "2fb2a4b2-687c-41fd-86f6-2cfe8e45e300")
 	)
 	(junction
-		(at 213.36 78.74)
+		(at 222.25 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d9d4c98-244e-469a-853a-c7fb23829843")
+		(uuid "44706be8-d93c-402b-8731-64b217f81fca")
 	)
 	(junction
 		(at 213.36 67.31)
@@ -4208,16 +4353,16 @@
 		(uuid "96422c35-bb95-452f-a676-2bef7c4da54e")
 	)
 	(junction
-		(at 157.48 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fa828ee-11b8-49f9-9853-10f424ed3713")
-	)
-	(junction
 		(at 213.36 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab7fb2f1-467c-40f5-91df-54bba41ddbe9")
+	)
+	(junction
+		(at 157.48 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07753f4-5026-4853-8339-daa3ae95a454")
 	)
 	(junction
 		(at 238.76 50.8)
@@ -4238,10 +4383,10 @@
 		(uuid "ef280631-bf33-418d-8f62-7394cce88a69")
 	)
 	(junction
-		(at 210.82 53.34)
+		(at 119.38 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7e57286-4062-4d20-9cb3-83e351346eb2")
+		(uuid "f845915b-9be1-4ce6-b448-bc62ce48de76")
 	)
 	(junction
 		(at 220.98 50.8)
@@ -4547,6 +4692,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 71.12) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1514fead-5834-42a3-9563-176c3fc69cf5")
+	)
+	(wire
+		(pts
 			(xy 162.56 115.57) (xy 162.56 124.46)
 		)
 		(stroke
@@ -4577,13 +4732,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 81.28) (xy 123.19 81.28)
+			(xy 115.57 81.28) (xy 119.38 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "210276fe-8a54-48f1-85a2-2bf021fb3121")
+	)
+	(wire
+		(pts
+			(xy 234.95 74.93) (xy 234.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e6fd66-52d6-4e12-928d-3af15a4496e9")
 	)
 	(wire
 		(pts
@@ -4697,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 74.93) (xy 213.36 78.74)
+			(xy 213.36 74.93) (xy 213.36 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4777,6 +4942,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53926ef0-e321-484a-9eec-528af051f99c")
+	)
+	(wire
+		(pts
 			(xy 115.57 137.16) (xy 121.92 137.16)
 		)
 		(stroke
@@ -4784,6 +4959,16 @@
 			(type default)
 		)
 		(uuid "59d459a8-ba3e-41a5-b637-be85d6a6b629")
+	)
+	(wire
+		(pts
+			(xy 234.95 74.93) (xy 238.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfe24f8-747a-47c7-8381-7fbcbe526501")
 	)
 	(wire
 		(pts
@@ -4837,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 157.48 113.03)
+			(xy 151.13 113.03) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +5082,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 74.93) (xy 213.36 74.93)
+			(xy 213.36 74.93) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4907,13 +5092,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 210.82 53.34)
+			(xy 232.41 82.55) (xy 234.95 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76862215-7d1a-44da-8776-cc61eb5c2ba2")
+		(uuid "7981e82e-05fb-404c-89d7-81b4ef39c211")
 	)
 	(wire
 		(pts
@@ -4924,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "7e11ee3a-4540-4820-b870-687c37246e96")
+	)
+	(wire
+		(pts
+			(xy 222.25 74.93) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb1e7eb-1aa8-4dcc-a6cb-ead3ae44dc50")
 	)
 	(wire
 		(pts
@@ -4957,7 +5152,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 53.34) (xy 213.36 53.34)
+			(xy 209.55 53.34) (xy 213.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4997,6 +5192,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 82.55) (xy 222.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc39dad-b01a-4a5e-b6c1-6f6cc5b1e837")
+	)
+	(wire
+		(pts
 			(xy 173.99 125.73) (xy 171.45 125.73)
 		)
 		(stroke
@@ -5004,16 +5209,6 @@
 			(type default)
 		)
 		(uuid "938af3ca-f4f9-459f-86c5-e4cef7bf8c4d")
-	)
-	(wire
-		(pts
-			(xy 209.55 53.34) (xy 210.82 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94b79ac5-06ea-462a-b69f-3d220d14bd22")
 	)
 	(wire
 		(pts
@@ -5097,16 +5292,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 78.74) (xy 213.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad1af73e-1ae2-45f1-8f72-59634ccd8951")
-	)
-	(wire
-		(pts
 			(xy 209.55 40.64) (xy 218.44 40.64)
 		)
 		(stroke
@@ -5144,6 +5329,16 @@
 			(type default)
 		)
 		(uuid "bb432151-c0d8-4cf7-83f3-ce7d99984dae")
+	)
+	(wire
+		(pts
+			(xy 224.79 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c056b668-9108-4977-9bf9-f9f5d41b1697")
 	)
 	(wire
 		(pts
@@ -5207,23 +5402,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 238.76 74.93)
+			(xy 232.41 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d188761f-dcad-4794-9060-5126208280d4")
-	)
-	(wire
-		(pts
-			(xy 207.01 66.04) (xy 210.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2745b97-93d0-4ba7-911d-bda0ed4c7b5c")
 	)
 	(wire
 		(pts
@@ -5264,16 +5449,6 @@
 			(type default)
 		)
 		(uuid "e709b60a-64b0-482e-b995-c2e099d058bc")
-	)
-	(wire
-		(pts
-			(xy 213.36 78.74) (xy 213.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83c35d6-fb4b-4b71-bbec-a0b540ebe620")
 	)
 	(wire
 		(pts
@@ -5344,6 +5519,16 @@
 			(type default)
 		)
 		(uuid "f81f4875-6f09-46cd-a9f0-2488af3a86f1")
+	)
+	(wire
+		(pts
+			(xy 279.4 22.86) (xy 279.4 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc6c4ac-c080-4cfb-aef1-34173439aa82")
 	)
 	(wire
 		(pts
@@ -5455,26 +5640,6 @@
 		)
 		(uuid "98428668-e3de-4e81-9485-0fe84abcd5fd")
 	)
-	(label "+V_OUT"
-		(at 123.19 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a3a4b19-f2cd-4fe7-a882-b815938b6dcf")
-	)
-	(label "+V_OUT"
-		(at 144.78 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1cc3d47-346d-4ac4-b756-48f18a30bdb4")
-	)
 	(label "BOOT"
 		(at 74.93 161.29 180)
 		(effects
@@ -5495,26 +5660,6 @@
 		)
 		(uuid "aeb2b3b8-7735-43a2-9f08-7bdcd9c2149b")
 	)
-	(label "+V_OUT"
-		(at 74.93 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c14fb699-fbd0-4384-b3c2-89b4747bafb0")
-	)
-	(label "+V_OUT"
-		(at 40.64 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca47f037-9101-425a-95b8-a8b78a825dd6")
-	)
 	(label "T1_IN"
 		(at 64.77 96.52 0)
 		(effects
@@ -5524,16 +5669,6 @@
 			(justify left bottom)
 		)
 		(uuid "cfde626f-9236-434d-ab50-a06ba940b4ca")
-	)
-	(label "+V_OUT"
-		(at 213.36 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e62ab675-003a-4f26-b693-334b8a918154")
 	)
 	(label "T1_IN"
 		(at 198.12 139.7 0)
@@ -5648,85 +5783,6 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 207.01 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06ce66e4-df94-4b83-90fd-ebbf361c4b3e")
-		(property "Reference" "#FLG04"
-			(at 205.105 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 203.2 66.0399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a425739-8e09-44d4-86c5-c7f5e5dba1c4")
-		)
-		(instances
-			(project "BLE-Module"
-				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -5904,85 +5960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 207.01 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1613add7-27b4-45b8-919d-29375d9579e8")
-		(property "Reference" "#FLG03"
-			(at 205.105 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 203.2 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 207.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "764f2cd1-fb65-40af-9eb0-0f4dc1a827e8")
-		)
-		(instances
-			(project "BLE-Module"
-				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 246.38 113.03 90)
 		(unit 1)
@@ -6153,6 +6130,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 119.38 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "252d4693-9593-46b6-a6d7-bd5398b1b051")
+		(property "Reference" "ESP32_C_Power1"
+			(at 123.444 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 123.444 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 120.3452 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5ff67c6-4394-494d-a343-aad2f47844d3")
+		)
+		(pin "2"
+			(uuid "74797c90-fd29-4853-a099-438bc9f13e28")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "ESP32_C_Power1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 55.88 90)
 		(unit 1)
@@ -6315,6 +6373,84 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 40.64 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a199568-a44e-4788-b12b-5512518b75c5")
+		(property "Reference" "#PWR019"
+			(at 40.64 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 40.64 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 40.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbadc9d8-2f49-443d-adc8-ad0aa5cf0d66")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7288,6 +7424,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59ef245b-1427-4c77-a1ce-fc9c6ed2c156")
+		(property "Reference" "C_OUT2"
+			(at 228.6 89.408 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 228.6 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 232.41 81.5848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPN" ""
+			(at 228.6 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2ad713e2-4b27-44a8-befe-01ed4d6b17b6")
+		)
+		(pin "1"
+			(uuid "ea73eb1c-5a14-4606-bd8a-8dc1261a4063")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "C_OUT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 256.54 31.75 0)
 		(unit 1)
@@ -8195,6 +8421,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 279.4 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2ad4a8-bf83-46c2-9d76-3828f5c145db")
+		(property "Reference" "#PWR022"
+			(at 279.4 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 279.4 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 279.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a1aa74e-5f06-45e0-bdd7-62680d66ae31")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 53.34 90)
 		(unit 1)
@@ -8547,6 +8851,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 119.38 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecc0037-ff7d-45c1-b5f5-1b095d6e7634")
+		(property "Reference" "#PWR023"
+			(at 119.38 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cd421a3-1437-4892-91e1-136215f7f6a5")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 256.54 24.13 0)
 		(unit 1)
@@ -8625,6 +9007,321 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 267.97 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7d9bf9f-cf07-4bac-a60c-132a4e098fa4")
+		(property "Reference" "#PWR017"
+			(at 267.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 267.97 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 267.97 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2980bd0-44a0-4795-a7fd-d3d6937d99e7")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 74.93 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc837313-58c2-459b-9bc0-bd0ac31b7132")
+		(property "Reference" "#PWR018"
+			(at 71.12 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1be34084-f305-436a-95b8-ec22c241100b")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 151.13 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4eb22e5-17b3-41b5-ba8f-c424f50e2947")
+		(property "Reference" "#PWR020"
+			(at 154.94 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 147.32 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "740f9125-c48b-4d61-969b-6aea8724d699")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 123.19 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c725e65e-798f-48af-89b9-8ac8b88e3fdd")
+		(property "Reference" "#PWR02"
+			(at 119.38 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 127 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 123.19 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5255372f-7b35-4ad5-b019-792721f76a8a")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 228.6 74.93 90)
 		(unit 1)
@@ -8646,7 +9343,7 @@
 				)
 			)
 		)
-		(property "Value" "52uF"
+		(property "Value" "22uF"
 			(at 228.6 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,6 +9486,85 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 160.02 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d502c3eb-87f3-4699-99d8-6556df930e0e")
+		(property "Reference" "#PWR011"
+			(at 163.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 156.21 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 160.02 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31e8be86-31d7-44ab-804f-996b6eb2155c")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9215,8 +9991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 160.02 35.56 90)
+		(lib_id "power:+3V3")
+		(at 213.36 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9225,9 +10001,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e63d309a-42ef-4392-ac74-915f26860e57")
-		(property "Reference" "#PWR011"
-			(at 163.83 35.56 0)
+		(uuid "e6aaac4f-ada7-4c49-9275-311b2d8ab7fb")
+		(property "Reference" "#PWR021"
+			(at 213.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,19 +10013,18 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 156.21 35.5599 90)
+		(property "Value" "+3V3"
+			(at 213.36 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 35.56 0)
+			(at 213.36 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +10035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 35.56 0)
+			(at 213.36 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9270,86 +10045,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 160.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74750ba4-784a-4619-bf1e-a693febe936d")
-		)
-		(instances
-			(project "BLE-Module"
-				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 267.97 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e65ce34d-250b-4b6f-929f-207371743a7f")
-		(property "Reference" "#PWR017"
-			(at 267.97 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 267.97 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 267.97 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 213.36 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9360,12 +10057,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6e47751-0c35-471f-970f-893aa22c60da")
+			(uuid "d9f59599-a25a-4dd1-bab0-9f105624e274")
 		)
 		(instances
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9444,6 +10141,84 @@
 			(project "BLE-Module"
 				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 279.4 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc4003f0-6586-4b9e-b834-d290ebe18fa8")
+		(property "Reference" "#FLG03"
+			(at 279.4 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 279.4 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 279.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7fcab94-1d3d-4ed2-8a4d-d239efed1559")
+		)
+		(instances
+			(project "BLE-Module"
+				(path "/f32fd4ec-d5e6-44db-8279-3c2039072023"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

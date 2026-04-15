@@ -96,9 +96,12 @@ Q: what do we do with PG in Buck converter?
 - [x] create board outline from DXF
 - [x] do routing and stuff
 
+- [x] redo with 22uF capacitors to lessen the BOM
+- [x] redo traces
 - [ ] which traces need to go to which pins in the middle?
-- [ ] redo with 22uF capacitors to lessen the BOM
 - [ ] need help picking the actual components like switches and USB-C adapter
+    - [ ] pick a cheap USB-C USB 3.1 receptacle
+
 
 ### Things to Study:
 - blocks
@@ -119,6 +122,7 @@ Ok I dont have a lot of time to go through this in detail, but some things I not
 Try to create more space between the USB-C connector and the ESP's antenna, preferrably swaping places with the USB-C and the 12 pin
 Remove the little sliver of ground pour above the antenna, I would just move the ESP32 up more to eliminate that and get it right on the edge of the board.
 I would add a lot of stitching vias around the GND pins of the ESP32 to connect the two ground pours on top and bottom.
+
 I personally would recommend a 4-layer stackup so we can have a dedicated 3.3V ground pour and increase overall board capacitance, the ESP's wifi TX events can cause a good inrush current and from an EMI perspective we are creating a large current loops with 3.3V routed the way it is
 
 ```

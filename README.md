@@ -30,16 +30,18 @@ https://www.digikey.com/en/products/detail/recom-power/RPX-4-0-R/14312389
 | GND | — | — | Power rail |
 | 3.3V | — | — | Power rail |
 | 12V (GNSS Vin) | — | — | Power rail |
-| CS | 12 | IO8 | SPI grouped |
-| SCK | 13 | IO9 | SPI grouped |
-| MOSI | 14 | IO10 | SPI grouped |
-| MISO | 15 | IO11 | SPI grouped |
-| IO_1 | 19 | IO15 | IO grouped |
-| IO_2 | 20 | IO16 | IO grouped |
-| IO_3 | 21 | IO17 | IO grouped |
-| IO_4 | 22 | IO18 | IO grouped |
+| CS | 34 | IO38 | SPI — cleanest GPIO in range |
+| SCK | 32 | IO36 | SPI — native FSPICLK |
+| MOSI | 31 | IO35 | SPI — native FSPID |
+| MISO | 33 | IO37 | SPI — native FSPIQ |
+| IO_1 | 35 | IO39 | JTAG-capable, free as GPIO |
+| IO_2 | 36 | IO40 | JTAG-capable, free as GPIO |
+| IO_3 | 37 | IO41 | JTAG-capable, free as GPIO |
+| IO_4 | 38 | IO42 | JTAG-capable, free as GPIO |
 
-> **Note:** Avoid using module pin 26 (IO26) as GPIO — on the N4R2, IO26 is internally tied to the flash CLK in QIO mode (the default) and will cause flash corruption if driven externally.
+> **Note:** Avoid using module pin 26 (IO26) as GPIO — on the N4R2, IO26 is internally tied to PSRAM in QIO mode and will cause corruption if driven externally. Avoid pins 39–40 (GPIO43/44, UART0 TX/RX) and pin 41 (IO45, VDD_SPI strapping pin). Pins 31–33 (IO35–IO37) have eFuse-determined defaults but are free in QIO flash mode. Pins 35–38 (IO39–IO42) are JTAG by default but freely reassignable; USB-JTAG still works regardless.
+
++12V trace is 2A, needs to be 1.5mm
 
 Cheers
 https://documentation.espressif.com/esp32-s3_datasheet_en.pdf#cd-pins-peri-assignment Page 27

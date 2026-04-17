@@ -1,0 +1,5 @@
+(version 1)
+(rule "12V trace width"
+	(constraint track_width (min 1.5mm))
+	(condition "A.NetName == '+12V'")
+)

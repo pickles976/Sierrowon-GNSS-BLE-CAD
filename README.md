@@ -119,3 +119,28 @@ I personally would recommend a 4-layer stackup so we can have a dedicated 3.3V g
 
 The DXF files are generated from the full .step file of the BLE adapter. Then we import the outer ring and screw holes as the edge cuts of the board. A DXF containing all lines in the sketch is imported to the "user drawings" layer so we can see where our via holes need to go for the pins.
 
+- [x] remove english text from the designators
+- [x] 10uF 50V capacitor on 12V
+- [x] add "no-pour" rule to ESP32 antenna footprint
+- [x] disconnect USB-C from VBUS
+- [x] custom fill for +3V3 source
+- [x] 4 layers
+- [x] GND via stitching
+- [x] M2.5 screw head clearance
+- [x] add GND zone for buck converter PAD
+- [x] make designators 0.8x0.8mm
+
+
+- [ ] pick and place
+
+2-layer $1.50 per board
+4-layer $1.77 per board
+
+What is USB-C differential signal?
+
+
+1. GND
+2. GND
+3. +3V3
+4. GND
+

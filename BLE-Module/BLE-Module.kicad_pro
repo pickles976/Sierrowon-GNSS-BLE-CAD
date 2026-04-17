@@ -515,7 +515,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 0.5,
         "tuning_profile": ""
       }
     ],
@@ -738,7 +738,7 @@
         "uuid": "f32fd4ec-d5e6-44db-8279-3c2039072023"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR18,C9",
     "variants": []
   },
   "sheets": [

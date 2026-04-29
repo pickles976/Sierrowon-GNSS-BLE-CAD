@@ -13,15 +13,6 @@ Power Supply
 https://www.digikey.com/en/products/detail/recom-power/RPX-4-0-R/14312389
 
 
-## TODO: 
-
-- [x] print out PCB on paper
-- [ ] add 12-pin header to board
-
-12 pins We will need CS, SCK, MOSI, MISO, 2x GND,  12V(GNSS Vin), 3.3V, 4 x IO Pins
-
- SPI pins on the S3 and be set in firmware and can be any arrangement from I04-IO14 and IO2
-
 ## 12-Pin Connector Pin Assignment
 
 | Signal | Module Pin | GPIO | Notes |
@@ -47,54 +38,12 @@ Cheers
 https://documentation.espressif.com/esp32-s3_datasheet_en.pdf#cd-pins-peri-assignment Page 27
 https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.pdf Page 20
 
-
-PRofessionallism stuff:
-1. Name your schematics
-2. Name your nets properly
-3. Make sure there are no ERC warnings or errors
-
-Place Symbol ("A" hotkey)
-"M" to move a symbol (does not move wires)
-"G" to grab a symbol (moves wires)
-ERC checker and power flags
-
-Assigning footprints
-https://www.youtube.com/watch?v=4YSZwcUSgJo&list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm&index=5
-
-Laying out the PCB
-https://www.youtube.com/watch?v=zdieFtrvjew&list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm&index=6
-Board setup button
-"air wires"
-X - trace mode
-D - drag trace
-G - grab trace
-V - create via-hole mid-trace
-U - select all segments in a trace
-use edge cuts layer to draw board edge
-
-Gerber files
-
-- PCBWAY
-- what are the PCB specs? (defaults should handle it)
-    - min trace spacing
-    - min trace width
-    - min drill size
-    - pad size
-- 12 mil spacing for power
-
-### 
-
-Output from GPS module: 9-36V
+Output from GPS module: 9-36V (nominally 12V)
 Output from Buck Converter: 3.3V
 
-Q: what do we do with PG in Buck converter?
-
-- [ ] fix ERC errors?
-
 ### Things to Study:
-- blocks
+- schematic blocks
 - pcb manufacturing
-- DRC
 - set up redmine for documentation
 
 ```
@@ -119,25 +68,8 @@ I personally would recommend a 4-layer stackup so we can have a dedicated 3.3V g
 
 The DXF files are generated from the full .step file of the BLE adapter. Then we import the outer ring and screw holes as the edge cuts of the board. A DXF containing all lines in the sketch is imported to the "user drawings" layer so we can see where our via holes need to go for the pins.
 
-- [x] remove english text from the designators
-- [x] 10uF 50V capacitor on 12V
-- [x] add "no-pour" rule to ESP32 antenna footprint
-- [x] disconnect USB-C from VBUS
-- [x] custom fill for +3V3 source
-- [x] 4 layers
-- [x] GND via stitching
-- [x] M2.5 screw head clearance
-- [x] add GND zone for buck converter PAD
-- [x] make designators 0.8x0.8mm
-
-
-- [ ] pick and place
-
 2-layer $1.50 per board
 4-layer $1.77 per board
-
-What is USB-C differential signal?
-
 
 1. GND
 2. GND

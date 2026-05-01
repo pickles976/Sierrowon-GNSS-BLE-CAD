@@ -12,23 +12,25 @@ https://learn.adafruit.com/assets/110822
 Power Supply
 https://www.digikey.com/en/products/detail/recom-power/RPX-4-0-R/14312389
 
+TODO: which pins from the GPS module do what?
 
 ## 12-Pin Connector Pin Assignment
 
-| Signal | Module Pin | GPIO | Notes |
-|--------|-----------|------|-------|
-| GND | — | — | Power rail |
-| GND | — | — | Power rail |
-| 3.3V | — | — | Power rail |
-| 12V (GNSS Vin) | — | — | Power rail |
-| CS | 34 | IO38 | SPI — cleanest GPIO in range |
-| SCK | 32 | IO36 | SPI — native FSPICLK |
-| MOSI | 31 | IO35 | SPI — native FSPID |
-| MISO | 33 | IO37 | SPI — native FSPIQ |
-| IO_1 | 35 | IO39 | JTAG-capable, free as GPIO |
-| IO_2 | 36 | IO40 | JTAG-capable, free as GPIO |
-| IO_3 | 37 | IO41 | JTAG-capable, free as GPIO |
-| IO_4 | 38 | IO42 | JTAG-capable, free as GPIO |
+| Header Pin | Signal | Module Pin | GPIO | Notes |
+| --- |--------|-----------|------|-------|
+| 01 | GND | — | — | Power rail |
+| 02 | GND | — | — | Power rail |
+| 03 | CS | 34 | IO38 | SPI — cleanest GPIO in range |
+| 04 | IO_4 | 38 | IO42 | JTAG-capable, free as GPIO |
+| 05 | MISO | 33 | IO37 | SPI — native FSPIQ |
+| 06 | IO_3 | 37 | IO41 | JTAG-capable, free as GPIO |
+| 07 | MOSI | 31 | IO35 | SPI — native FSPID |
+| 08 | IO_2 | 36 | IO40 | JTAG-capable, free as GPIO |
+| 09 | SCK | 32 | IO36 | SPI — native FSPICLK |
+| 10 | IO_1 | 35 | IO39 | JTAG-capable, free as GPIO |
+| 11 | 12V (GNSS Vin) | — | — | Power rail |
+| 12 | 3.3V | — | — | Power rail |
+
 
 > **Note:** Avoid using module pin 26 (IO26) as GPIO — on the N4R2, IO26 is internally tied to PSRAM in QIO mode and will cause corruption if driven externally. Avoid pins 39–40 (GPIO43/44, UART0 TX/RX) and pin 41 (IO45, VDD_SPI strapping pin). Pins 31–33 (IO35–IO37) have eFuse-determined defaults but are free in QIO flash mode. Pins 35–38 (IO39–IO42) are JTAG by default but freely reassignable; USB-JTAG still works regardless.
 
@@ -68,9 +70,7 @@ I personally would recommend a 4-layer stackup so we can have a dedicated 3.3V g
 
 The DXF files are generated from the full .step file of the BLE adapter. Then we import the outer ring and screw holes as the edge cuts of the board. A DXF containing all lines in the sketch is imported to the "user drawings" layer so we can see where our via holes need to go for the pins.
 
-2-layer $1.50 per board
-4-layer $1.77 per board
-
+Layers
 1. GND
 2. GND
 3. +3V3
